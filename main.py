@@ -17,7 +17,7 @@ res_msg = ["Звертайтесь до @kakadesa", "Увага ! Дуже ба�
 # todo:                                  ..:: Code ::..
 
 
-bot = telebot.TeleBot("5480236027:AAFVSKP_ujUosykr0YlRCkmT1Hj4-HGSNmA", parse_mode='html')
+bot = telebot.TeleBot("TOKEN", parse_mode='html')
 
 
 def for_in(array, message):
