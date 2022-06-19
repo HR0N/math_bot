@@ -1,4 +1,3 @@
-import requests
 import telebot
 
 
@@ -43,4 +42,4 @@ if __name__ == '__main__':
 
 
 # todo:                                  ..:: Devs ::..
-# pip install pyTelegramBotAPI requests
+# pip install pyTelegramBotAPI
