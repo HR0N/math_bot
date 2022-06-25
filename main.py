@@ -37,7 +37,7 @@ def botTelegramRandomMessage(message):
         return bot.reply_to(message, res_msg[0])
     result2 = for_in(key_words2, message.text)
     if result2 and not for_in(key_words1, message.text):
-        return bot.reply_to(message, res_msg[1])
+        return bot.send_message(message.chat.id, res_msg[1])
 
 
 @bot.message_handler(content_types=["photo"])
@@ -47,7 +47,7 @@ def give_photo(message):
         return bot.reply_to(message, res_msg[0])
     result2 = for_in(key_words2, message.caption)
     if result2 and not for_in(key_words1, message.caption):
-        return bot.reply_to(message, res_msg[1])
+        return bot.send_message(message.chat.id, res_msg[1])
 
 
 if __name__ == '__main__':
