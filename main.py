@@ -20,8 +20,8 @@ res_msg = ["Звертайтесь до @kakadesa", "Увага ! Дуже ба�
 # markup.add(types.InlineKeyboardButton("Chat with Bot", url=url))
 # bot.send_contact(message.chat.id, reply_markup=markup)
 
-# bot = telebot.TeleBot("5480236027:AAFVSKP_ujUosykr0YlRCkmT1Hj4-HGSNmA", parse_mode='html')
-bot = telebot.TeleBot("5306273473:AAEs5lvJ6rYvbiwnp0Z1eAMGin_Z6ncsXYk", parse_mode='html')
+# bot = telebot.TeleBot("token", parse_mode='html')
+bot = telebot.TeleBot("token", parse_mode='html')
 
 
 def for_in(array, message):
